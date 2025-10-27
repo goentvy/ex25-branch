@@ -56,5 +56,5 @@ logging:
     com.entvy.ex25_branch.mapper: debug
 
   # 로그 파일 설정
-  file:
-    name: logs/app.log
+#  file:
+#    name: logs/app.log

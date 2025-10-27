@@ -6,7 +6,7 @@
     <select id="findAll" resultType="Student">
         SELECT * FROM students
     </select>
-
+    <!--
     <select id="findById" parameterType="long" resultType="Student">
         SELECT * FROM students WHERE id = #{id}
     </select>
@@ -28,4 +28,5 @@
     <delete id="delete" parameterType="long">
         DELETE FROM students WHERE id=#{id}
     </delete>
+    -->
 </mapper>
