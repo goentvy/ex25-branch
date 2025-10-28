@@ -1,0 +1,217 @@
+2025-10-27T11:58:55.734+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T11:58:55.736+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T11:58:55.736+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T11:58:55.767+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T11:58:55.769+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T11:58:56.387+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T11:58:56.400+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T11:58:56.400+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T11:58:56.428+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T11:58:56.428+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 659 ms
+2025-10-27T11:58:56.823+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T11:58:56.845+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T11:58:56.850+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 1.483 seconds (process running for 1.953)
+2025-10-27T11:59:10.409+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T11:59:10.409+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T11:59:10.410+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T11:59:10.462+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-10-27T11:59:10.507+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:00:18.903+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource form.html.]
+2025-10-27T12:00:18.922+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:00:29.710+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:00:29.725+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:07:54.712+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:07:54.730+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:07:55.940+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:07:55.957+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:07:56.129+09:00  INFO 18856 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:07:56.131+09:00  INFO 18856 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:07:56.134+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:07:56.211+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T12:07:56.211+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T12:07:56.211+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:07:56.372+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T12:07:56.374+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:07:56.374+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:07:56.385+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:07:56.385+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2025-10-27T12:07:56.483+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:07:56.490+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T12:07:56.492+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.304 seconds (process running for 541.595)
+2025-10-27T12:07:56.493+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:10:54.094+09:00  INFO 18856 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:10:54.095+09:00  INFO 18856 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:10:54.097+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:10:54.161+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T12:10:54.161+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T12:10:54.161+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:10:54.306+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T12:10:54.308+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:10:54.308+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:10:54.318+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:10:54.318+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 155 ms
+2025-10-27T12:10:54.406+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:10:54.413+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T12:10:54.414+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.271 seconds (process running for 719.518)
+2025-10-27T12:10:54.415+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:12:51.699+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:12:51.699+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:12:51.700+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T12:12:51.704+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:12:51.735+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:12:53.126+09:00  INFO 18856 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:12:53.127+09:00  INFO 18856 --- [ex25-branch] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:12:53.129+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:12:53.192+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T12:12:53.192+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T12:12:53.192+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:12:53.330+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T12:12:53.331+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:12:53.332+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:12:53.342+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:12:53.342+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 149 ms
+2025-10-27T12:12:53.429+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:12:53.435+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T12:12:53.437+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.262 seconds (process running for 838.539)
+2025-10-27T12:12:53.437+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:14:45.432+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:14:45.433+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:14:45.433+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T12:14:45.437+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:14:45.454+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:14:46.478+09:00  INFO 18856 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:14:46.479+09:00  INFO 18856 --- [ex25-branch] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:14:46.481+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:14:46.544+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T12:14:46.544+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T12:14:46.544+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:14:46.680+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T12:14:46.682+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:14:46.682+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:14:46.692+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:14:46.692+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 147 ms
+2025-10-27T12:14:46.777+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:14:46.784+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T12:14:46.785+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.259 seconds (process running for 951.888)
+2025-10-27T12:14:46.786+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:14:49.802+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:14:49.803+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:14:49.803+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T12:14:49.807+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:14:55.214+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:14:55.231+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:16:15.554+09:00  INFO 18856 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (2 additions, 2 deletions, 5 modifications)
+2025-10-27T12:16:15.555+09:00  INFO 18856 --- [ex25-branch] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:16:15.557+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:16:15.617+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T12:16:15.617+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T12:16:15.617+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:16:15.752+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T12:16:15.754+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:16:15.754+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:16:15.763+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:16:15.764+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 145 ms
+2025-10-27T12:16:15.847+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:16:15.853+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T12:16:15.855+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.254 seconds (process running for 1040.957)
+2025-10-27T12:16:15.855+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:16:24.196+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:16:24.197+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:16:24.197+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T12:16:24.202+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:16:24.218+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:05.402+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.entvy.ex25_branch.mapper.StudentMapper.findAll]
+2025-10-27T12:17:05.420+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:06.840+09:00  INFO 18856 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-10-27T12:17:06.841+09:00  INFO 18856 --- [ex25-branch] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:17:06.843+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:17:06.904+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 18856 (D:\s09_springboot\day10_1027\ex25-branch\build\classes\java\main started by YONSAI in D:\s09_springboot\day10_1027\ex25-branch)
+2025-10-27T12:17:06.904+09:00 DEBUG 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-27T12:17:06.904+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:17:07.049+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T12:17:07.050+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:17:07.050+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:17:07.060+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:17:07.060+09:00  INFO 18856 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
+2025-10-27T12:17:07.147+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:17:07.154+09:00  INFO 18856 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T12:17:07.156+09:00  INFO 18856 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.27 seconds (process running for 1092.258)
+2025-10-27T12:17:07.156+09:00  INFO 18856 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:17:07.340+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:17:07.340+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:17:07.341+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T12:17:07.352+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T12:17:07.418+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@49042f61
+2025-10-27T12:17:07.419+09:00  INFO 18856 --- [ex25-branch] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T12:17:07.424+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:07.435+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:07.448+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:17:07.655+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:10.985+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-3] c.e.e.mapper.StudentMapper.findById      : ==>  Preparing: SELECT * FROM students WHERE id = ?
+2025-10-27T12:17:10.987+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-3] c.e.e.mapper.StudentMapper.findById      : ==> Parameters: 1(Long)
+2025-10-27T12:17:10.987+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-3] c.e.e.mapper.StudentMapper.findById      : <==      Total: 1
+2025-10-27T12:17:11.017+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:13.687+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.update        : ==>  Preparing: UPDATE students SET name=?, email=?, age=?, updated_at=NOW() WHERE id=?
+2025-10-27T12:17:13.688+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.update        : ==> Parameters: 이주환(String), juhwan.lee@example.com(String), 35(Integer), 1(Long)
+2025-10-27T12:17:13.690+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.update        : <==    Updates: 1
+2025-10-27T12:17:13.693+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:13.693+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:13.694+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:17:13.712+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:16.620+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.findById      : ==>  Preparing: SELECT * FROM students WHERE id = ?
+2025-10-27T12:17:16.621+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.findById      : ==> Parameters: 1(Long)
+2025-10-27T12:17:16.621+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.findById      : <==      Total: 1
+2025-10-27T12:17:16.639+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:18.918+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-10] c.e.e.mapper.StudentMapper.update        : ==>  Preparing: UPDATE students SET name=?, email=?, age=?, updated_at=NOW() WHERE id=?
+2025-10-27T12:17:18.918+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-10] c.e.e.mapper.StudentMapper.update        : ==> Parameters: 이주환(String), juhwan.lee@example.com(String), 33(Integer), 1(Long)
+2025-10-27T12:17:18.919+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-10] c.e.e.mapper.StudentMapper.update        : <==    Updates: 1
+2025-10-27T12:17:18.922+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:18.922+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:18.923+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:17:18.940+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:19.893+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-3] c.e.e.mapper.StudentMapper.findById      : ==>  Preparing: SELECT * FROM students WHERE id = ?
+2025-10-27T12:17:19.893+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-3] c.e.e.mapper.StudentMapper.findById      : ==> Parameters: 4(Long)
+2025-10-27T12:17:19.894+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-3] c.e.e.mapper.StudentMapper.findById      : <==      Total: 1
+2025-10-27T12:17:19.911+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:22.342+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.update        : ==>  Preparing: UPDATE students SET name=?, email=?, age=?, updated_at=NOW() WHERE id=?
+2025-10-27T12:17:22.342+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.update        : ==> Parameters: 이준호(String), junho.lee@example.com(String), 33(Integer), 4(Long)
+2025-10-27T12:17:22.343+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.update        : <==    Updates: 1
+2025-10-27T12:17:22.347+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:22.347+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:22.348+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:17:22.368+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:23.021+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.findById      : ==>  Preparing: SELECT * FROM students WHERE id = ?
+2025-10-27T12:17:23.022+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.findById      : ==> Parameters: 6(Long)
+2025-10-27T12:17:23.022+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.findById      : <==      Total: 1
+2025-10-27T12:17:23.042+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:25.455+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-10] c.e.e.mapper.StudentMapper.update        : ==>  Preparing: UPDATE students SET name=?, email=?, age=?, updated_at=NOW() WHERE id=?
+2025-10-27T12:17:25.455+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-10] c.e.e.mapper.StudentMapper.update        : ==> Parameters: 박근철(String), park@example.com(String), 33(Integer), 6(Long)
+2025-10-27T12:17:25.457+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-10] c.e.e.mapper.StudentMapper.update        : <==    Updates: 1
+2025-10-27T12:17:25.459+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:25.459+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:25.460+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-1] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:17:25.479+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:27.051+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:41.545+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.m.StudentMapper.existsByEmail      : ==>  Preparing: SELECT COUNT(*) > 0 FROM students WHERE email = ?
+2025-10-27T12:17:41.545+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.m.StudentMapper.existsByEmail      : ==> Parameters: test@test.com(String)
+2025-10-27T12:17:41.546+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.m.StudentMapper.existsByEmail      : <==      Total: 1
+2025-10-27T12:17:41.547+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.insert        : ==>  Preparing: INSERT INTO students (name, email, age, created_at, updated_at) VALUES (?, ?, ?, NOW(), NOW())
+2025-10-27T12:17:41.547+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.insert        : ==> Parameters: 테스트(String), test@test.com(String), 30(Integer)
+2025-10-27T12:17:41.548+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-5] c.e.e.mapper.StudentMapper.insert        : <==    Updates: 1
+2025-10-27T12:17:41.550+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:41.550+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:41.551+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-6] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 4
+2025-10-27T12:17:41.573+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:43.794+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.delete        : ==>  Preparing: DELETE FROM students WHERE id=?
+2025-10-27T12:17:43.794+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.delete        : ==> Parameters: 7(Long)
+2025-10-27T12:17:43.795+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-8] c.e.e.mapper.StudentMapper.delete        : <==    Updates: 1
+2025-10-27T12:17:43.799+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-9] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM students
+2025-10-27T12:17:43.799+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-9] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:17:43.800+09:00 DEBUG 18856 --- [ex25-branch] [http-nio-8080-exec-9] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:17:43.819+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:47.010+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:17:48.197+09:00  WARN 18856 --- [ex25-branch] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T12:30:20.919+09:00  INFO 18856 --- [ex25-branch] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:30:20.919+09:00  INFO 18856 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:30:20.919+09:00  INFO 18856 --- [ex25-branch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T12:30:20.919+09:00  INFO 18856 --- [ex25-branch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
